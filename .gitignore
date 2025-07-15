@@ -1,0 +1,42 @@
+# Ignore raw data
+data/raw/
+
+# Ignore virtual environment
+venv/
+
+# Ignore large model files
+models/random_forest_best_model.pkl
+models/model_development_results.pkl
+models/processed_data.pkl
+
+# Common Python ignores
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs
+logs/
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/

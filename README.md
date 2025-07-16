@@ -134,7 +134,7 @@ streamlit run app.py
 
 ## 🎯 Phase-by-Phase Execution
 
-### Phase 1: Data Infrastructure & EDA (15-20 minutes)
+### Phase 1: Data Infrastructure & EDA
 ```bash
 python src/data_pipeline.py
 ```
@@ -144,7 +144,7 @@ python src/data_pipeline.py
 - `reports/eda_report.md`
 - `reports/visualizations/` (7 charts)
 
-### Phase 2: Data Preprocessing (10-15 minutes)
+### Phase 2: Data Preprocessing 
 ```bash
 python src/preprocessing.py
 ```
@@ -153,7 +153,7 @@ python src/preprocessing.py
 - `models/processed_data.pkl`
 - `reports/preprocessing_report.md`
 
-### Phase 3: Model Development (30-45 minutes)
+### Phase 3: Model Development 
 ```bash
 python src/model_development.py
 ```
